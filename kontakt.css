@@ -1,0 +1,26 @@
+html {box-sizing: border-box;}
+*, ::after, ::before { box-sizing: inherit;
+}
+
+body {
+  font-family:Mukta Vaani;
+  background-color: #C7D7F2;
+  margin: 0 auto;
+  padding: 100px;
+  max-width: 40em;
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.kontakt {
+  background-color: #9EBEF5;
+  padding: 50px;
+  border-radius: 80%;
+}

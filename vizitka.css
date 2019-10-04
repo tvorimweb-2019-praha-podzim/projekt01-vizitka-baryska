@@ -1,8 +1,13 @@
+html {box-sizing: border-box;}
+*, ::after, ::before { box-sizing: inherit;
+}
+
+
 body {
-  font-family:Mukta Vaani;
+  font-family: Mukta Vaani;
   background-color: #C7D7F2;
   margin: 0 auto;
-  max-width: 55em;
+  max-width: 55rem;
   text-align: center;
 }
 
@@ -19,10 +24,29 @@ p {
   line-height: 0.8;
 }
 
-.kdo {background-color: #9EBEF5}
+.kdo {
+  background-color: #9EBEF5
+}
 
 img {
-  width:200px;
-  border: 3px solid #0F53C8;
-  padding: 0.6rem; 
+  width: 200px;
+  border-radius: 100%;
   margin: 0.3rem;
+}
+
+li {
+  display: inline-block;
+  padding: 50px 50px 50px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: rgb(96, 143, 224);
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  }
+  
